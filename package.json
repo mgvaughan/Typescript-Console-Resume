@@ -1,0 +1,16 @@
+{
+  "name": "typescript-console-resume",
+  "version": "1.0.0",
+  "description": "Objectives\r -Create a project folder linked to github, and inside that folder an index.html file and a javascript file. Link the JavaScript file to the index.html file.\r -Your \"resume\" will simply be a series of console.log statements to print the resume data to the console.\r -When you open index.html in the browser, it will be a blank page. That's okay. Your resume will be in the console. (command + option + I, or F12)\r -Your resume should display the following information:\r     - Your name\r     - Your career/field\r     - A short description of yourself\r     - A list of your interests\r     - A list of your past positions that includes company/place name, title, short description of what you did\r     - A list of your skills\r -You can make up information if you'd like\r -In your skill list, skills that are \"cool\" should begin with BAM:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc app.ts -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
